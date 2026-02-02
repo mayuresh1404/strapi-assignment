@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "article1s",
+  "info": {
+    "singularName": "article1",
+    "pluralName": "article1s",
+    "displayName": "Article1"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "blocks"
+    },
+    "Author": {
+      "type": "string"
+    },
+    "Published": {
+      "type": "boolean"
+    },
+    "Date": {
+      "type": "date"
+    }
+  }
+}
